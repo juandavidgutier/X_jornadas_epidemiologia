@@ -53,7 +53,7 @@ pd.set_option('display.float_format', lambda x: '%.2f' % x)
 
 ######
 #import data
-data = pd.read_csv("D:/clases/UDES/articulo hepatitis/causal inference/sec_salud/top50.csv", encoding='latin-1') 
+data = pd.read_csv("C:/Users/RPC/Desktop/X_jornadas_epidemiologia-main/top50.csv", encoding='latin-1') 
 
                            
 #NeutralNina
@@ -485,7 +485,6 @@ print(subset_nino)
 #with placebo 
 placebo_nino = estimate_NeutralNino.refute_estimate(method_name="placebo_treatment_refuter", placebo_type="permute", num_simulations=3)
 print(placebo_nino)
-
 
 
 
